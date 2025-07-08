@@ -76,4 +76,4 @@ with smtplib.SMTP("smtp.gmail.com", port=587) as connection:
         msg=message.as_string()
     )
 
-print("✅ Mail başarıyla gönderildi.")
+print(" Mail başarıyla gönderildi.")
